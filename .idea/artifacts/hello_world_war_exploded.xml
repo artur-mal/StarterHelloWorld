@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hello-world:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_world_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hello-world" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:8.0.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="hello-world/web/Web" />
+    </root>
+  </artifact>
+</component>
